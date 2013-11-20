@@ -43,7 +43,7 @@ void setup() {
 
   for (TableRow row : dataset.rows()) {
     // Controls what percentage of the dataset is shown on the map
-    if (random(100) < 10) {
+    if (random(100) < 13) {
       float stars = row.getFloat("stars");
       countStars(stars); // counts the number of star-ranked hotels in each category
       float latitude = row.getFloat("latitude");
